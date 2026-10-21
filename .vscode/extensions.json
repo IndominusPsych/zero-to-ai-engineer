@@ -1,0 +1,10 @@
+{
+  // VS Code suggests these when you open this folder (a pop-up in the bottom right: click "Install").
+  "recommendations": [
+    "bierner.markdown-mermaid",
+    "yzhang.markdown-all-in-one",
+    "ms-python.python",
+    "ms-toolsai.jupyter",
+    "charliermarsh.ruff"
+  ]
+}

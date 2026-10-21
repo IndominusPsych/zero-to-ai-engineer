@@ -1,0 +1,50 @@
+# --- Secrets (never commit API keys or webhook URLs) ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# --- OS files ---
+.DS_Store
+._*
+Thumbs.db
+desktop.ini
+
+# --- Editors ---
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*~
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Data, models and logs created while doing the exercises ---
+chroma_db/
+*.sqlite
+*.sqlite3
+*.db
+*.joblib
+*.pkl
+logs/
+*.log
+*.jsonl
+
+# --- Practice projects, if you create them inside this repo ---
+ai-engineer-projects/
